@@ -1,4 +1,4 @@
-package de.hansemekur;
+package himynameisilnano.functional;
 
 public class Main {
     public static void main(String[] args) {
