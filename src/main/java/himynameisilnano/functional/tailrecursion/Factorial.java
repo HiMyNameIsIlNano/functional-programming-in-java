@@ -7,7 +7,6 @@ public final class Factorial {
 
     private static TailCall<Integer> factorial(final int factorial, final int number) {
         if (number == 1) {
-
             return done(factorial);
         }
 
