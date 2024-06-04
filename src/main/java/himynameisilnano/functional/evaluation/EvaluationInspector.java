@@ -2,7 +2,7 @@ package himynameisilnano.functional.evaluation;
 
 public class EvaluationInspector {
 
-    public static boolean SlowAndLessSelectiveTask(int data) {
+    public boolean slowIsNumberEven(int data) {
         try {
             Thread.sleep(100L);
             System.out.println("Slow Task: " + data);
@@ -12,10 +12,10 @@ public class EvaluationInspector {
         }
     }
 
-    public static boolean QuickAndHighlySelectiveTask(int data) {
+    public boolean quickIsGreaterThan(int data, int threshold) {
         System.out.println("Quick Task: " + data);
 
-        return data > 5;
+        return data > threshold;
     }
 
 }
